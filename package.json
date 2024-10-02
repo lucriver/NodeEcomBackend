@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Lucas Hirt",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
   },
   "devDependencies": {
     "jest": "^29.7.0"
